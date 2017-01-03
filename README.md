@@ -1,6 +1,8 @@
 SerieAssistant
 ==============
 
+-[![Build Status](https://travis-ci.org/sbksba/Serie-Assistant.svg?branch=master)](https://travis-ci.org/sbksba/Serie-Assistant)
+
 Synopsis
 --------
 
