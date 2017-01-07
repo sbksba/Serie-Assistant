@@ -1,3 +1,3 @@
 #!/bin/bash
 
-rm -f *.torrent *.list *.log *~
+rm -f *.list *.log *~
