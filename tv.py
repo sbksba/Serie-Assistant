@@ -78,7 +78,7 @@ def print_tv(mypath,serie_name,target):
                 episode = name+"_S"+season_nb+"E"+str(s['episode_number'])
         if (episode in mydict.values()):
             continue
-        elif(now > s['air_date']):
+        elif(now > s['air_date'] and s['air_date'] is not None):
             print "-> {:40} | {} | {:30} [DOWNLOAD]".format(s['name'].encode('utf-8'),s['air_date'],episode)
             target.write("{}\n".format(episode.replace("_"," ").rsplit('.',1)[0]))
             status = 1
