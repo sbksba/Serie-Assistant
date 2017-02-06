@@ -86,7 +86,7 @@ if __name__=="__main__":
             if (url != 0):
                 clickUrlTorrent9(url,ml)
         moveToDownloads(".torrent", ConfigSectionMap("TORRENT")['download'])
-        print "\n"+"="*63+"\n"+"NOT YET ON TORRENT9\n"+"="*63+"\n"
+        print "\n"+"="*63+"\n"+"NOT YET ON NEXTORRENT\n"+"="*63+"\n"
         for nyo in notYetOnline:
             print "-> "+nyo
         driver.quit()
