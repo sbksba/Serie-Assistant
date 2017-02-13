@@ -6,7 +6,7 @@ python tv.py
 
 if [[ -s $FILE ]] ; then
     #echo "$FILE has data."
-    python torrent9.py
+    python torrent.py
 fi ;
 
 ./clean.sh
